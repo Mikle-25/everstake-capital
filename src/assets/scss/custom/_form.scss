@@ -1,0 +1,12 @@
+.form-group {
+  label {
+    font-weight: 500;
+    font-size: $fs18;
+  }
+
+ & .custom-control-label {
+    margin-left: 0.5rem;
+  }
+}
+
+
