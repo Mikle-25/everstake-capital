@@ -83,7 +83,7 @@ export default {
   methods: {
     async postData(event) {
       event.preventDefault();
-      // console.log(this.$bvToast.show)
+
       try {
         this.loading = true;
         await fetch(process.env.VUE_APP_GOOGLE_SHEETS_API, {

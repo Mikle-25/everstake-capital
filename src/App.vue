@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'assets/scss';
+@import 'assets/scss/index';
 
 #app {
   -webkit-font-smoothing: antialiased;

@@ -1,20 +1,22 @@
 <template>
-  <header class="header" :class="{ 'header--dark': theme }">
-    <div>
-      <router-link to="/">
-        <img v-if="theme" src="~@/assets/img/everstake-logo-dark.svg" alt="Logo" />
+  <b-container class="position-relative">
+    <header class="header" :class="{ 'header--dark': theme }">
+      <div>
+        <router-link to="/">
+          <img v-if="theme" src="~@/assets/img/everstake-logo-dark.svg" alt="Logo" />
 
-        <img v-else src="~@/assets/img/everstake-logo-white.svg" alt="Logo" />
-      </router-link>
-    </div>
+          <img v-else src="~@/assets/img/everstake-logo-white.svg" alt="Logo" />
+        </router-link>
+      </div>
 
-    <ul class="header__nav" :class="{ 'header__nav--dark': theme }">
-      <li><a href="#about">About</a></li>
-      <li><a href="#sector">Sectors</a></li>
-      <li><a href="#advantages">Advantages</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </header>
+      <ul class="header__nav" :class="{ 'header__nav--dark': theme }">
+        <li><a href="#about">About</a></li>
+        <li><a href="#sector">Sectors</a></li>
+        <li><a href="#advantages">Advantages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+  </b-container>
 </template>
 
 <script>
@@ -31,7 +33,7 @@ export default {
 <style lang="scss" scoped>
 .header {
   position: absolute;
-  padding: 2rem 10rem;
+  padding: 2rem 0;
   display: flex;
   justify-content: space-between;
   align-items: center;

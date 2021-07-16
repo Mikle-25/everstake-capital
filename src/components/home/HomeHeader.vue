@@ -43,7 +43,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-    padding-left: 10rem;
+    padding-left: 5rem;
 
     & h1 {
       font-size: $fs85;
@@ -82,19 +82,15 @@ export default {
     opacity: 0;
     overflow: hidden;
     position: absolute;
-    animation: animationText 12s infinite linear;
-  }
-
-  & span:nth-child(1) {
-    animation-delay: 0s;
+    animation: animationText 9s infinite linear;
   }
 
   & span:nth-child(2) {
-    animation-delay: 4s;
+    animation-delay: 3s;
   }
 
   & span:nth-child(3) {
-    animation-delay: 8s;
+    animation-delay: 6s;
   }
 }
 

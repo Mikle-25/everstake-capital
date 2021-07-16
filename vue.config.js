@@ -1,4 +1,8 @@
 module.exports = {
+  devServer: {
+    disableHostCheck: true,
+  },
+  productionSourceMap: false,
   lintOnSave: false,
   css: {
     sourceMap: true,
