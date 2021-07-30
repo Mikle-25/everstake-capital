@@ -60,7 +60,7 @@ export default {
       text-decoration: none;
 
       &:hover {
-        color: $orange;
+        text-decoration: underline;
       }
     }
 

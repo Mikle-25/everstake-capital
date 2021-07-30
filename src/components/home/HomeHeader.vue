@@ -2,11 +2,11 @@
   <section class="header--wrapper">
     <b-container class="header-content pt-4 pb-5">
       <div class="header-content__middle">
-        <h1 class="animated">
+        <h1 class="animated font-weight-bold">
           Digital
           <span>age</span>
           <span>money</span>
-          <span>profit</span>
+          <span>asset</span>
         </h1>
 
         <p>Smarter financial decisions</p>
@@ -58,6 +58,7 @@ export default {
 
   &__footer {
     align-self: center;
+    margin-bottom: 25px;
 
     & a {
       text-decoration: none;
@@ -66,11 +67,6 @@ export default {
       font-weight: 500;
       background-color: $white;
       transition: all 0.3s linear;
-
-      &:hover {
-        color: $white;
-        background-color: $orange;
-      }
     }
   }
 }
@@ -82,32 +78,31 @@ export default {
     opacity: 0;
     overflow: hidden;
     position: absolute;
-    animation: animationText 9s infinite linear;
+    animation: animationText 4000ms infinite linear;
+  }
+
+  & span:nth-child(1) {
+    animation-delay: 1333.33333ms;
   }
 
   & span:nth-child(2) {
-    animation-delay: 3s;
-  }
-
-  & span:nth-child(3) {
-    animation-delay: 6s;
+    animation-delay: 2666.66666ms;
   }
 }
 
 @keyframes animationText {
-  0%,
-  25% {
+  0%, 40% {
     opacity: 0;
     transform: translateY(-50%);
   }
 
-  35%,
+  45%,
   55% {
     opacity: 1;
     transform: translateY(0);
   }
 
-  65%,
+  60%,
   100% {
     opacity: 0;
     transform: translateY(50%);

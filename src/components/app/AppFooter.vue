@@ -3,8 +3,8 @@
     <b-container class="d-flex flex-column align-items-center">
       <p>We are always open to dialogue. Contact our team using the email form above.</p>
 
-      <span class="fs-24 fw-bold">+372 593 56766</span>
-      <span class="fs-24 fw-bold">invest@everstake.capital</span>
+      <span class="info">+372 593 56766</span>
+      <span class="info">invest@everstake.capital</span>
 
       <div class="d-flex gap-3 mt-5 mb-1">
         <span>Terms of use</span>
@@ -34,5 +34,10 @@ footer {
   background-color: $black;
   color: $white;
   text-align: center;
+}
+
+.info {
+  font-size: $fs24;
+  font-weight: bold;
 }
 </style>
