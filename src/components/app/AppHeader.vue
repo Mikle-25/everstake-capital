@@ -9,11 +9,18 @@
         </router-link>
       </div>
 
-      <ul class="header__nav" :class="{ 'header__nav--dark': theme }">
+      <ul v-if="!theme" class="header__nav" :class="{ 'header__nav--dark': theme }">
         <li><a href="#about">About</a></li>
         <li><a href="#sector">Sectors</a></li>
         <li><a href="#advantages">Advantages</a></li>
         <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <ul v-else class="header__nav" :class="{ 'header__nav--dark': theme }">
+        <li><router-link to="/">About</router-link></li>
+        <li><router-link to="/">Sectors</router-link></li>
+        <li><router-link to="/">Advantages</router-link></li>
+        <li><router-link to="/">Contact</router-link></li>
       </ul>
     </header>
   </b-container>

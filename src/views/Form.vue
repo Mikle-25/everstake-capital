@@ -59,17 +59,17 @@
         </div>
       </b-form>
 
-      <MediaList />
+<!--      <MediaList />-->
     </b-container>
   </div>
 </template>
 
 <script>
-import MediaList from '../components/MediaList.vue';
+// import MediaList from '../components/MediaList.vue';
 
 export default {
   name: 'Form',
-  components: { MediaList },
+  // components: { MediaList },
   data() {
     return {
       loading: false,

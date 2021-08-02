@@ -57,18 +57,18 @@
           <li>in-house comprehensive due diligence expertise</li>
         </ul>
 
-        <MediaList />
+        <!--        <MediaList />-->
       </b-container>
     </div>
   </section>
 </template>
 
 <script>
-import MediaList from '../MediaList.vue';
+// import MediaList from '../MediaList.vue';
 
 export default {
   name: 'HomeBody',
-  components: { MediaList },
+  // components: { MediaList },
 };
 </script>
 

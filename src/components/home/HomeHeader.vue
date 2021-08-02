@@ -36,7 +36,7 @@ export default {
   flex-direction: column;
   justify-content: center;
   color: $white;
-  height: 100vh;
+  height: 700px;
 
   &__middle {
     display: flex;
@@ -78,15 +78,15 @@ export default {
     opacity: 0;
     overflow: hidden;
     position: absolute;
-    animation: animationText 4000ms infinite linear;
+    animation: animationText 5000ms infinite linear;
   }
 
   & span:nth-child(1) {
-    animation-delay: 1333.33333ms;
+    animation-delay: 1666.6666ms;
   }
 
   & span:nth-child(2) {
-    animation-delay: 2666.66666ms;
+    animation-delay: 3333.3333ms;
   }
 }
 
