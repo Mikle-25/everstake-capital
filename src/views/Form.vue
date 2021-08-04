@@ -10,7 +10,6 @@
             name="First name"
             v-model.trim="form.firstName"
             required
-            placeholder="First name"
           >
           </b-form-input>
         </b-form-group>
@@ -20,7 +19,6 @@
             id="Last name"
             name="Last name"
             v-model.trim="form.lastName"
-            placeholder="Last name"
           ></b-form-input>
         </b-form-group>
 
@@ -30,7 +28,6 @@
             name="Country"
             v-model.trim="form.country"
             required
-            placeholder="USA"
           ></b-form-input>
         </b-form-group>
 
@@ -41,7 +38,6 @@
             type="email"
             v-model.trim="form.email"
             required
-            placeholder="example@gmail.com"
           ></b-form-input>
         </b-form-group>
 
