@@ -78,15 +78,15 @@ export default {
     opacity: 0;
     overflow: hidden;
     position: absolute;
-    animation: animationText 5000ms infinite linear;
+    animation: animationText 6000ms infinite linear;
   }
 
   & span:nth-child(1) {
-    animation-delay: 1666.6666ms;
+    animation-delay: 2000ms;
   }
 
   & span:nth-child(2) {
-    animation-delay: 3333.3333ms;
+    animation-delay: 4000ms;
   }
 }
 
